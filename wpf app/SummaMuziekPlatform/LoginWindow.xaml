@@ -1,0 +1,23 @@
+﻿<Window x:Class="SummaMuziekPlatform.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SummaMuziekPlatform"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1">
+            <TextBox MinWidth="250" Height="30" Margin="0,10,0,10"></TextBox>
+            <TextBox MinWidth="250" Height="30" Margin="0,10,0,10"></TextBox>
+            <Button Height="30" Content="Login"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
